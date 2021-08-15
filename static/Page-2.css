@@ -1,0 +1,334 @@
+.u-section-1 {
+  background-image: url("images/30a14448dcf0e6dcde01febc9d662f6c66a5a0b07f0d572cffd5d9fcefb997b665c1c4af9b61a3a304455e71545a4bed8b7e070abc810468ce854d_12801.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 250px 55px 39px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 {
+    min-height: 412px;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 412px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 {
+    min-height: 316px;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 316px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 {
+    min-height: 237px;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 237px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 {
+    min-height: 149px;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 149px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
+}
+
+.u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 1038px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+  width: 1140px;
+  margin: 112px -7px 0 auto;
+}
+
+.u-section-2 .u-layout-cell-1 {
+  min-height: 706px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 31px 1px 0;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  background-image: none;
+  margin: -14px auto 0;
+  padding: 21px 52px 22px;
+}
+
+.u-section-2 .u-text-2 {
+  margin: 82px 351px 0 369px;
+}
+
+.u-section-2 .u-text-3 {
+  width: 340px;
+  margin: 108px auto 0;
+}
+
+.u-section-2 .u-btn-2 {
+  border-style: solid;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  background-image: none;
+  margin: 93px -7px 40px auto;
+  padding: 7px 35px 9px 33px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 867px;
+  }
+
+  .u-section-2 .u-layout-wrap-1 {
+    position: relative;
+    width: 940px;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 582px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 251px;
+    margin-left: 269px;
+  }
+
+  .u-section-2 .u-btn-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 432px;
+  }
+
+  .u-section-2 .u-layout-wrap-1 {
+    width: 720px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.25rem;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 141px;
+    margin-left: 159px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-layout-wrap-1 {
+    width: 540px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 71px;
+    margin-left: 89px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-layout-wrap-1 {
+    width: 340px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/*MORAN*/
+ /*////////////////*/
+
+svg#play {
+  width:200px;
+ margin: 120px auto;
+ display:block;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+}
+
+svg#play #triangle {
+  fill:rgba(22,22,22,0);
+  transition:500ms;
+  transform-origin: 50% 50%;
+}
+svg#play:hover #triangle {
+  fill: rgba(141, 208, 101, 0.6);
+  transform-origin: 50% 50%;
+
+}
+
+ svg #lineOne, svg #lineTwo {
+  transform-origin: 50% 50%;
+  transition: 1s;
+
+}
+
+
+ svg #Pause {
+  width: 100vw;
+  height: 100vh;
+  /*margin: 120px auto;*/
+  /*display:block;*/
+  /*cursor: pointer;*/
+  /*transform-origin: 50% 50%;*/
+ }
+
+ svg:hover #lineOne {
+  transform: rotate(260deg);
+   -webkit-transform: rotate(260deg);
+-moz-transform: rotate(260deg);
+-o-transform: rotate(260deg);
+   transform-origin: 50% 50%;
+
+}
+
+ svg:hover #lineTwo {
+  transform: rotate(-450deg);
+   transform-origin: 50% 50%;
+
+}
+
+ svg:hover #lineTwo pause{
+    width: 74px;
+    height: 74px;
+    border-style: double;
+    border-width: 0px 0px 0px 60px;
+    border-color: #202020;
+}
+
+
+ /*fdsnjkgnbasjkdbgjkfasbgjksda*/
+
+  /* made this so i could visually center the shapes */
+
+#backgroundplaceholder{
+	  /* background-color: black;  */
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10em;
+		margin-left: 10%;
+    width:0%;
+    height:0%;
+}
+ /* the button's base size, shape, appearance */
+#playPauseButton{
+  position: relative;
+  /* the button's background color */
+  background: #fff;
+  border: none;
+  outline:none;
+  height: 5em;
+  width: 5em;
+  font-size: 2em;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+  cursor:pointer;
+   /* the button's a circle */
+	-moz-border-radius: 5em;
+	-webkit-border-radius: 5em;
+	border-radius: 5em;
+
+}
+
+#playPauseButton:focus{
+  outline:none;
+}
+
+ /* the button's top layer: size, shape, appearance */
+#playPauseButton:before {
+  content: "";
+  position: absolute;
+  top: 1.5em;
+   /* for visual centering */
+  left: 1.67em;
+  height: 0;
+  border-style: solid;
+  border-width: 1em 0 1em 2em;
+  /* create shape with color */
+  border-color: transparent transparent transparent #e52d27;
+  transition: .218s ease;
+}
+
+#playPauseButton:hover:before {
+  height: 2em;
+  border-width: 0 0 0 2em;
+}
+
+ /* the button's mouseover/click/hover layer: size, shape, appearance */
+#playPauseButton:after {
+  content: "";
+  position: absolute;
+  background: inherit;
+  width: 0;
+  height: 2em;
+  top: 1.5em;
+   /* for visual centering */
+  left: 2.42em;
+  transition: .218s ease;
+}
+
+#playPauseButton:hover:after {
+  width: .5em;
+}
+
+
+/*dfngsjsfdbgjkfsbdgjkfsdbgjk*/
