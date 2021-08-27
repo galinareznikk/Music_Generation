@@ -8,5 +8,9 @@ This feature is extremely important in music generation because we wanted to kee
 
 In addition we implement the website with Flask library to make our model accessible.
 
+https://user-images.githubusercontent.com/45335220/131183442-3fff284a-e332-4528-853c-d3327e297c96.mp4
+
+
+
 
 
